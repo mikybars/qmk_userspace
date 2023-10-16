@@ -57,12 +57,12 @@
       "KC_DOT",
       "KC_SLSH",
       "KC_RSFT",
-      "MO(2)",
+      "OSL(2)",
       "MO(1)",
       "ALL_T(KC_ESC)",
       "KC_SPC",
       "LALT(KC_BSPC)",
-      "MO(2)"
+      "OSL(2)"
     ],
     [
       "QK_BOOT",
@@ -173,7 +173,7 @@
       "KC_RCBR",
       "KC_AT",
       "KC_NO",
-      "KC_NO",
+      "KC_TRNS",
       "KC_NO",
       "KC_NO",
       "KC_NO",
