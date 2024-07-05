@@ -1,4 +1,5 @@
 SRC += source.c
+SRC += features/layer_lock.c
 
 MCU = atmega32u4
 
