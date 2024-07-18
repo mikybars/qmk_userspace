@@ -11,8 +11,18 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
 
   if (record->event.pressed) {
     switch (keycode) {
-      case ARROW:  // -> Unicode arrow, or => when shifted.
-        send_unicode_string(shifted ? "=>" : "->");
+      case KC_QUOT:
+        if (shifted) {
+          unregister_code(KC_LSFT);
+          register_code(KC_QUOT);
+          unregister_code(KC_QUOT);
+          register_code(KC_LSFT);
+        } else {
+          register_code(KC_LSFT);
+          register_code(KC_QUOT);
+          unregister_code(KC_QUOT);
+          unregister_code(KC_LSFT);
+        }
         return false;
     }
   }
