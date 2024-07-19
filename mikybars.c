@@ -3,6 +3,12 @@
 #include "mikybars.h"
 #include "features/layer_lock.h"
 
+// Tap Dance definitions
+tap_dance_action_t tap_dance_actions[] = {
+    // Tap once for Escape, twice for Caps Lock
+    [ACC_I] = ACTION_TAP_DANCE_DOUBLE(KC_I, KC_A),
+};
+
 bool process_record_user(uint16_t keycode, keyrecord_t* record) {
   const uint8_t mods = get_mods();
   const bool shifted = (mods | get_weak_mods() | get_oneshot_mods()) & MOD_MASK_SHIFT;

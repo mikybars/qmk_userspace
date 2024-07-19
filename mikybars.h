@@ -18,3 +18,7 @@ enum custom_keycodes {
   ARROW = SAFE_RANGE,
   LLOCK
 };
+
+enum {
+  ACC_I
+}
