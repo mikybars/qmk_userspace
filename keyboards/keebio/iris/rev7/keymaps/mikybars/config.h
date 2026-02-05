@@ -1,2 +1,0 @@
-#define CAPS_WORD_IDLE_TIMEOUT 2000  // 2 seconds.
-#define PERMISSIVE_HOLD
