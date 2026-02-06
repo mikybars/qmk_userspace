@@ -1,0 +1,15 @@
+INTROSPECTION_KEYMAP_C = mikybars.c
+SRC += features/layer_lock.c
+
+MCU = atmega32u4
+
+CAPS_WORD_ENABLE = yes
+UNICODE_ENABLE =  yes
+TAP_DANCE_ENABLE = yes
+
+COMMAND_ENABLE = no
+CONSOLE_ENABLE = no
+BLUETOOTH_ENABLE = no
+AUDIO_ENABLE = no
+MIDI_ENABLE = no
+SPACE_CADET_ENABLE = no
