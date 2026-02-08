@@ -15,8 +15,7 @@
 #define CTL_SCLN RCTL_T(KC_SCLN)
 
 enum custom_keycodes {
-  ARROW = SAFE_RANGE,
-  LLOCK
+  ARROW = SAFE_RANGE
 };
 
 enum {

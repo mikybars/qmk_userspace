@@ -1,5 +1,3 @@
-SRC += features/layer_lock.c
-
 MCU = atmega32u4
 
 CAPS_WORD_ENABLE = yes
