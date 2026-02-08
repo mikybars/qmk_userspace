@@ -14,10 +14,6 @@
 #define ALT_L LALT_T(KC_L)
 #define CTL_SCLN RCTL_T(KC_SCLN)
 
-enum custom_keycodes {
-  ARROW = SAFE_RANGE
-};
-
 enum {
   ACC_I
 };
