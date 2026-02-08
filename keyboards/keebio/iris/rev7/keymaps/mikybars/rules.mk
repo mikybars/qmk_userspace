@@ -2,6 +2,7 @@ MCU = atmega32u4
 
 CAPS_WORD_ENABLE = yes
 UNICODE_ENABLE =  yes
+VIA_ENABLE = yes
 
 TAP_DANCE_ENABLE = no
 COMMAND_ENABLE = no
